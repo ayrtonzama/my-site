@@ -47,10 +47,12 @@ export default function HeaderComponent() {
             animate="show"
             custom={1}
           >
+            <span className="hero__title--blood">SENIOR</span>
+            <br />
             FRONTEND
             <br />
             <span className="hero__title--blood">ENGINEER</span>
-           
+
           </motion.h1>
           <motion.p
             className="hero__lead"
@@ -106,7 +108,7 @@ export default function HeaderComponent() {
             <span>AUTH</span>
             <span>EU / SWISS </span>
           </div>
-        
+
           <div className="spec__barcode" aria-hidden="true" />
           <div className="spec__serial">SERIAL ／ AZ-2099-FE</div>
         </motion.aside>
